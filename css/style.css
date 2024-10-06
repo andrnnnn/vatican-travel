@@ -46,7 +46,7 @@
 }
 
 #gallery .title {
-    font-family: "Avro", serif;
+    font-family: "Arvo", serif;
 }
 
 /* ========================= */
@@ -83,7 +83,7 @@
 }
 
 /* ========================= */
-/*  Carousel Content Styling  */
+/*  Carousel Content Styling */
 /* ========================= */
 .card-img-top {
     width: 100%;
@@ -92,9 +92,23 @@
 }
 
 .card-title {
-    font-family: "Avro", serif;
+    font-family: "Arvo", serif;
 }
 
 .card-text {
     font-size: small;
+}
+
+/* ========================= */
+/* Styling khusus untuk layar di bawah 576px */
+/* ========================= */
+@media (max-width: 576px) {
+    body {
+        background-color: rgb(35, 40, 43);
+        color: white;
+    }
+    #gallery {
+        background-color: white !important;
+        color: black !important;
+    }
 }
